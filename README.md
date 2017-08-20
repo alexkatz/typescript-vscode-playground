@@ -3,6 +3,16 @@ A simple vscode starter repo for experimentation or quick coding/debugging in Ty
 
 Youll find an ```src/index.ts``` file ready to debug from within vscode. ```tsc``` transpiles your ```.ts``` files to ```dist/```, along with sourcemaps. You can go ahead and expand from there!
 
+* Make sure you run 
+```shell
+yarn install
+```
+or 
+```shell
+npm install
+```
+to grab the few devDependencies you'll need before getting started.
+
 ## vscode
 * ```.vscode/launch.json``` is set up for debugging Typescript directly in vscode, complete with source maps, between ```src/``` and ```dist/```. Sweet.
 * ```.vscode/settings.json``` excludes ```dist/``` from searches, which prevents compiled ```.js``` files from cluttering go-to-files and searches.
