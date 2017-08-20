@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "inlineSourceMap": true,
+        "pretty": true,
+        "moduleResolution": "node",
+        "target": "es6",
+        "module": "commonjs",
+        "skipLibCheck": true,
+        "removeComments": true,
+        "lib": [
+            "es7"
+        ],
+        "plugins": [
+            {
+                "name": "tslint-language-service"
+            }
+        ]
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

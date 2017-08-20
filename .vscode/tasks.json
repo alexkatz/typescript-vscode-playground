@@ -1,0 +1,30 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "taskName": "build",
+            "command": "yarn build",
+            "type": "shell",
+            "problemMatcher": []
+        },
+        {
+            "taskName": "clean",
+            "command": "yarn run clean",
+            "type": "shell"
+        },
+        {
+            "taskName": "lint",
+            "command": "yarn lint",
+            "type": "shell",
+            "problemMatcher": []
+        },
+        {
+            "taskName": "lint-fix",
+            "command": "yarn lint-fix",
+            "type": "shell",
+            "problemMatcher": []
+        }
+    ]
+}
