@@ -18,7 +18,11 @@ to grab the few devDependencies you'll need before getting started.
 * ```.vscode/settings.json``` excludes ```dist/``` from searches, which prevents compiled ```.js``` files from cluttering go-to-files and searches.
 * I personally set shortcuts like ```meta+R``` for both ```start-debugging``` and ```restart-debugging```, and maybe ```meta+.``` to stop debugging -- all to make debugging easy to start and stop as you're coding. You can press ```meta+K meta+S``` or go to ```Preferences > Keyboard Shortcuts``` to experiment a bit and find shortcuts you're comfortable with. 
 ## package.json scripts
-* ```tsc-watch``` is used to transpile ```src/index.ts``` -> ```dist/index.js```, and provide a codeFrame ```ts-lint``` output with each saved change. Nice. 
+I've provided a few getting-started scripts.
+
+* ```watch-lint``` uses ```tsc-watch``` along with ```tsconfig.json``` to transpile ```src/index.ts``` -> ```dist/index.js```, and provides a codeFrame ```ts-lint``` output with each saved change. Nice.
+
+* ```watch``` uses ```tsc --watch``` with ```tsconfig.json```, rather than ```ts-watch```, so, no linting.
 
 * ```build``` builds using the included ```tsconfig.json```. ```.js``` equivalents of ```.ts``` files are outputted to the ```/dist``` directory.
 
