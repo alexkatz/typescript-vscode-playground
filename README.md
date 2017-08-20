@@ -1,7 +1,7 @@
 # typescript-vscode-playground
 A simple vscode starter repo for experimentation or quick coding/debugging in Typescript with a couple of nice features. Probably a nice kickoff point to get started with an easily debuggable Typescript/Node project or something like that.
 
-Youll find an ```src/index.ts``` file ready to debug from within vscode. ```tsc``` transpiles your ```.ts``` files to ```dist/```, along with sourcemaps. You can go ahead and expand from there!
+Youll find a ```src/index.ts``` file ready to debug from within vscode. ```tsc``` transpiles your ```.ts``` files to ```dist/```, along with sourcemaps. You can go ahead and expand from there!
 
 * Make sure you run 
 ```shell
