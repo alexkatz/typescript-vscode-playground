@@ -6,7 +6,7 @@ Youll find an ```src/index.ts``` file ready to debug from within vscode. ```tsc`
 ## vscode
 * ```.vscode/launch.json``` is set up for debugging Typescript directly in vscode, complete with source maps, between ```src/``` and ```dist/```. Sweet.
 * ```.vscode/settings.json``` excludes ```dist/``` from searches, which prevents compiled ```.js``` files from cluttering go-to-files and searches.
-* I personally set shortcuts like ```meta+R``` for both ```start-debugging``` and ```restart-debugging```, and maybe ```meta+.``` to stop debugging -- all to make debugging easy to start and stop as you're coding. You can press ```meta+K meta+S``` or go to ```Preferences > Keyboard Shortcuts``` to experiment a bit and find something you're comfortable with. 
+* I personally set shortcuts like ```meta+R``` for both ```start-debugging``` and ```restart-debugging```, and maybe ```meta+.``` to stop debugging -- all to make debugging easy to start and stop as you're coding. You can press ```meta+K meta+S``` or go to ```Preferences > Keyboard Shortcuts``` to experiment a bit and find shortcuts you're comfortable with. 
 ## package.json scripts
 * ```tsc-watch``` is used to transpile ```src/index.ts``` -> ```dist/index.js```, and provide a codeFrame ```ts-lint``` output with each saved change. Nice. 
 
