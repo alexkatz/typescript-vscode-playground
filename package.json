@@ -9,7 +9,8 @@
     "clear": "rm -r dist",
     "lint-fix": "tslint -c tslint.json -p tsconfig.json --type-check --fix",
     "lint": "tslint -c tslint.json -p tsconfig.json --type-check --format codeFrame --force",
-    "watch": "tsc-watch --project tsconfig.json --onSuccess \"yarn lint\""
+    "watch": "tsc --watch --project tsconfig.json",
+    "watch-lint": "tsc-watch --project tsconfig.json --onSuccess \"yarn lint\""
   },
   "devDependencies": {
     "@types/node": "^8.0.19",
